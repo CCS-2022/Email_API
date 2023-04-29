@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'opejdk:latest' }
+        agent1
     }
     stages {
         stage('Test') {
