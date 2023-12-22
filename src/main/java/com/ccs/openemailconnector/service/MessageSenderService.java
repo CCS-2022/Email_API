@@ -25,7 +25,7 @@ public class MessageSenderService {
         String signature = "Message sent using CCS Open Email Connector App.";
 
         outboundMessage.setTo(EMAIL_RECEPIENT);
-        outboundMessage.setCc("alexmar19190@gmail.com", "chris08tm@gmail.com");
+        outboundMessage.setCc("yhosvanysoto@hotmail.com");
         outboundMessage.setFrom(EMAIL_SENDER);
         outboundMessage.setSubject(message.getSubject());
         outboundMessage.setText(body + "\n\n" + signature);
